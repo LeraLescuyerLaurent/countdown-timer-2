@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    background-image: url(christmasDay.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 5rem;
+    margin-top: 15%;
+}
+.countDown-timer{
+    display: flex;
+    justify-content: space-around;
+}
+.countDown-element{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.countDown-element p{
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.countDown-element span{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+
+}
